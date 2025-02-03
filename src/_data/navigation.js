@@ -1,6 +1,10 @@
 export default {
   top: [
     {
+      text: 'Resume',
+      url: '/resume/'
+    },
+    {
       text: 'About',
       url: '/about/'
     },
@@ -13,14 +17,6 @@ export default {
     {
       text: 'Style guide',
       url: '/styleguide/'
-    },
-    {
-      text: 'Imprint',
-      url: '/imprint/'
-    },
-    {
-      text: 'Privacy',
-      url: '/privacy/'
     }
   ]
 };

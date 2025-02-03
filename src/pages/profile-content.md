@@ -1,4 +1,6 @@
 
+# Full Stack and Cloud Engineer 
+
 Enthusiastic Full Stack Software Engineer & Cloud Solutions Developer with a proven ability to develop reliable, good quality, cleanly designed solutions from concept to deployment. 
 Interested about software engineering good practices and processes that create good systems for engineering.
 
@@ -34,7 +36,7 @@ Interested about software engineering good practices and processes that create g
     - Kinesis, Lambda
 
 - **Diagramming** 
-    - Illograph, IcePanel, Draw.io, Lucid Charts (UML), Axure RP 9
+    - Illograph, IcePanel, Draw\.io, Lucid Charts (UML), Axure RP 9
 - **Project Management:** 
     - Jira, Jira Administration, Confluence, Clickup 
 
@@ -42,7 +44,7 @@ Interested about software engineering good practices and processes that create g
 ## Key Achivements  
 - Built and migrated a cloud IoT platform (55,000+ devices) on GCP using microservices, reducing infrastructure costs by 50% and latency by 40%. Currently handles over 100 events per second. 
 - System achived more than 99.999% uptime over the last 5 years.
-- Developed real-time admin dashboards (React/Redux) for monitoring IoT device telemetry.
+- Developed real-time admin dashboards (React/Redux) for administration of Iot Device networks and monitoring IoT device telemetry.
 - Engineered voice-control integrations (Google Assistant, Alexa) for smart devices 
 - Created reusable TypeScript/Node.js libraries for API clients and IoT message parsing, cutting development time by 30%.
 - Automated CI/CD pipelines with Docker and Google Cloud Build, Github actions enabling seamless deployment across environments.
@@ -57,8 +59,8 @@ Interested about software engineering good practices and processes that create g
 #### **IoT & Cloud Platform Development**  
 - Architected and maintained a **IoT platform** for smart electrical devices, enabling remote control/monitoring, telemetry collection and storage. Integrated and certified voice control of devices using Google Home and Alexa.  
 - Built end-to-end infrastructure on **Google Cloud Platform (GCP)**:  
-  - **Microservices**: Designed scalable backend services with **Kubernetes, Docker, Cloud Functions, and Pub/Sub**.  
-  - **Data Pipeline**: Stored and managed IoT telemetry using **Firestore, PostgreSQL** f.  
+  - **Microservices**: Designed scalable backend services with **Kubernetes, Cloud Functions, Redis cache, Redis messaging, Pub/Sub, Firebase**.  
+  - **Data Pipeline**: Stored and managed IoT telemetry using **Firestore, PostgreSQL**.  
   - **Security**: Implemented **Firebase Auth** and a custom **certificate management system** for secure OTA firmware updates.  
 
 **Full Stack Development**  
