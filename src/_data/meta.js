@@ -1,4 +1,4 @@
-export const url = process.env.URL || 'http://localhost:8080';
+export const url = process.env.URL || 'https://www.nilushansilva.info';
 export const siteName = 'Nilushan Silva ';
 export const siteDescription = 'Full stack developer';
 export const siteType = 'Person'; // schema
