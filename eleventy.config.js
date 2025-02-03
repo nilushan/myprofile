@@ -18,7 +18,7 @@ dotenv.config();
 import yaml from 'js-yaml';
 
 //  config import
-import {getAllPosts, showInSitemap, tagList} from './src/_config/collections.js';
+import { getAllPosts, showInSitemap, tagList } from './src/_config/collections.js';
 import events from './src/_config/events.js';
 import filters from './src/_config/filters.js';
 import plugins from './src/_config/plugins.js';
@@ -68,7 +68,7 @@ export default async function (eleventyConfig) {
   });
 
   // ---------------------  bundle
-  eleventyConfig.addBundle('css', {hoist: true});
+  eleventyConfig.addBundle('css', { hoist: true });
 
   // 	--------------------- Library and Data
   eleventyConfig.setLibrary('md', plugins.markdownLib);
@@ -88,6 +88,10 @@ export default async function (eleventyConfig) {
   eleventyConfig.addShortcode('svg', shortcodes.svgShortcode);
   eleventyConfig.addShortcode('image', shortcodes.imageShortcode);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
+
+  eleventyConfig.addPairedShortcode("markdown", (content) => {
+    return plugins.markdownLib.render(content);
+  });
 
   // --------------------- Events ---------------------
   if (process.env.ELEVENTY_RUN_MODE === 'serve') {

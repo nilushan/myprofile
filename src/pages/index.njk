@@ -1,15 +1,14 @@
 ---
 layout: base
 permalink: /index.html
-title: 'Full stack software engineer ( Typescript, React )'
-description: 'I am Nilushan Silva, A full stack developer from Logan, QLD, Australia'
-
+title: "Full stack software engineer ( Typescript, React )"
+description: "I am Nilushan Silva, A full stack developer from Logan, QLD, Australia"
 ---
 
 <div class="wrapper">
   <header class="full | section" style="--spot-color: var(--color-primary)">
     <div class="section__inner flow region">
-      <h1 class="text-center" style="color: var(--color-light);">{{ title }}</h1>
+      <h1 class="text-center" style="color: var(--color-light)">{{ title }}</h1>
     </div>
 
     {% svg "divider/waves", null, "seperator" %}
@@ -17,161 +16,9 @@ description: 'I am Nilushan Silva, A full stack developer from Logan, QLD, Austr
 
   <article class="full | region">
     <div class="wrapper flow prose">
-     
-     {% renderTemplate "md" %}
-
-
-      Enthusiastic software engineer with a proven ability to develop reliable, good quality, cleanly designed solutions from concept to deployment. 4 years experience as a full stack developer using Typescript/React. 2 years experience on CCP. 9 more years of expertise in developing and managing complex software projects and teams.
-
-      ## Contact
-
-      * **Email:** nilushan.silva@gmail.com
-      * **LinkedIn:** https://www.linkedin.com/in/nilushan-silva-27235310/
-      * **Location:** Brisbane, Logan, Goldcoast. Queensland, Australia 
-
-      ## Education
-
-      * **Bachelor's Degree:** BSc in Computer Science (Hons)
-      * **University:** University of Colombo, Sri Lanka
-      * **Years:** 2004-2008
-
-      ## Tech Stack
-
-      ### Languages
-
-      * Typescript, Javascript, Java, C#, C++
-
-      ### Frontend
-
-      * React, Redux, Bootstrap, HTML, CSS
-
-      ### Backend
-
-      * Express and Fastify based REST apis
-
-      ### Databases
-
-      * Postgres, Mysql, Firestore, BigQuery
-
-      ### Source Repos
-
-      * Git, Svn
-
-      ### CI/CD
-
-      * Docker, Google Cloud Build Container Registry
-
-      ## Experience
-
-      ### Full Stack Developer | Bluekey Pty Ltd. QLD, AU acquired by Zimi
-
-      **October 2017 - December 2020**
-
-      * As the only full-stack/cloud engineer, designed, developed, tested, deployed, and maintained the services and infrastructure of the entire backend system.
-      * Product includes Smart IoT electrical components controlled and monitored from the app via the cloud (using mqtt) and bluetooth.
-      * Devices can also be controlled using voice commands through Google Home and Alexa.
-      * All entities are monitored using admin web app.
-      * Initially developed product functionality based on Xively IoT platform REST API for apps and admin dashboard.
-      * Integrated and certified voice control of devices using Google assistant.
-      * IoT Device request and telemetry data message handling and storage.
-      * Admin web dashboard using Typescript/React/Redux.
-      * Migrated the entire live cloud backend as a new product to infrastructure based on Google cloud platform.
-      * Entire backend was completed by myself.
-      * Designed, developed, tested and deployed the new cloud services using micro services based architecture.
-      * Scalability, low latency, security, maintainability and traceability considered.
-      * Used Firebase auth, Firestore, Firebase cloud messaging, Cloud functions, IoT Core, PubSub, Kubernetes, Docker containers, Postgres, BigQuery.
-      * Integrated admin dashboard, voice control and other existing services to the new solution.
-      * Supported the integration of the mobile apps to the new solution.
-      * Successfully migrated all IoT devices and users (apps and voice control) to new solution together with the app developers, firmware developers and management.
-      * Used development, staging and production environments to deploy new features reliably.
-      * Developed backend services using Typescript.
-      * Frontends using Typescript, React/Redux and bootstrap.
-      * Frontends also include charts to display changes over time.
-      * Developed common functionality as reusable, tested npm libraries.
-      * Infrastructure cost reduced by more than 50%.
-      * Latency decreased considerably.
-      * Reliability increased.
-
-      ### Senior Cloud Engineer | Zimi Ltd. QLD, AU (same team same product)
-
-      **December 2020 - now**
-
-      * Full stack development and cloud deployment on the same Zimi product as earlier.
-      * Alexa smart home voice control integration with the Zimi smart devices.
-      * Design, document and develop API for 3rd party integrations for device information retrieval, device control and status change events.
-      * User authorisation based security developed.
-      * Event based API that avoids polling.
-      * Using Pubsub to send events among multiple micro services.
-      * IoT device firmware update CDN service for memory limited devices needing OTA.
-      * Self signed Certificate Authority and Certificate management system with long term reliable root certificates.
-
-      ### Google Cloud Platform
-
-      * Compute Engine, GKE, Cloud Functions, Cloud Run, Cloud Storage, IoTCore, PubSub
-
-      ### Firebase
-
-      * Auth, Firestore, Cloud messaging
-
-      ### AWS
-
-      * Kinesis, Lambda
-
-      ### Tools
-
-      * **Diagramming Tools:** Lucid Charts (UML), Axure RP 9
-      * **Project Management:** Jira, Jira Administration
-
-      ### Product Manager | Simcentric. Colombo Sri Lanka
-
-      **January 2015 - June 2017**
-
-      * Leading the design and development of the new products of the company.
-      * Leading the software development team that consists of software engineers and quality assurance engineers.
-      * Developed Training Mate.
-          * A classroom teaching and monitoring tool to conduct training scenarios using the game simulator.
-          * This includes screen sharing, screen monitoring, remote whiteboards and file sharing.
-          * Developed using C#.Net.
-      * Ambience Suite of products.
-          * Products used by militaries for game based training scenarios.
-          * Simulation engine that adds interactive crowds and vehicles to game simulator to make the training scenarios more realistic.
-          * Developed using C++.Net.
-
-      ### Software Engineer | Simcentric, Colombo, Sri Lanka
-
-      **November 2010 - December 2014**
-
-      * Developing components and features for simulation products.
-      * Insurgent Pattern of Life Simulation.
-          * Developed a simulation that conducts the planning, preparation and execution of an insurgent attack on VBS2 Game engine using C++.
-      * Urban Pattern of life Editor.
-          * Improvements for the UPOL simulation configuration editor.
-          * Implemented using Java SE using Netbeans platform.
-
-      ### Expertise
-
-      * OO Design and Development
-      * Test Driven Development
-      * Developing independent, reusable and testable components/libraries/classes/ functions
-
-      ### Software Engineer | Respere, Colombo Sri Lanka
-
-      **August 2008 - November 2010**
-
-      * Developing a open source web software.
-      * Human rights violations recording system based on PHP, Mysql.
-      * OpenEvSys.
-          * Saas platform.
-          * To provide hosted instances of OpenEvSys for Customers.
-
-{% endrenderTemplate %}
-
+      {% markdown %} {% include "./profile-content.md" %} {% endmarkdown %}
     </div>
   </article>
-
-
-
-
 
   <section class="full | region">
     <div class="wrapper flow prose">
@@ -179,17 +26,15 @@ description: 'I am Nilushan Silva, A full stack developer from Logan, QLD, Austr
       <!-- blog intro text is optional. -->
 
       {% if blog.intro %}
-        <p>{{ blog.intro }}</p>
+      <p>{{ blog.intro }}</p>
       {% endif %}
 
-      <div class="feature |  region region-space-l">
+      <div class="feature | region region-space-l">
         <custom-masonry layout="50-50">
           <!-- loop posts -->
-          {% set itemList = collections.posts %}
-					{% asyncEach item in itemList.slice(0, 4) %}
-						{% set definedDate = item.date %}
-						{% include "partials/card-blog.njk" %}
-					{% endeach %}
+          {% set itemList = collections.posts %} {% asyncEach item in
+          itemList.slice(0, 4) %} {% set definedDate = item.date %} {% include
+          "partials/card-blog.njk" %} {% endeach %}
         </custom-masonry>
       </div>
     </div>
