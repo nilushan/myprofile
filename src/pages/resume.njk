@@ -6,18 +6,20 @@ description: "My Resume with a wide range of experience in software development"
 ---
 
 <div class="wrapper">
-  <header class="full | section" style="--spot-color: var(--color-primary)">
+  <header class="full | section" style="--spot-color: var(--color-secondary)">
     <div class="section__inner flow region">
       <h1 class="text-center" style="color: var(--color-light)">{{ title }}</h1>
     </div>
 
-    {% svg "divider/waves", null, "seperator" %}
+    {% svg "divider/soft-bottom", null, "seperator" %}
   </header>
 
-  <article class="full | region">
+  <article class="full | region" >
     <div class="wrapper flow prose">
       {% markdown %} {% include "./profile-content.md" %} {% endmarkdown %}
     </div>
+
   </article>
+
 
 </div>
