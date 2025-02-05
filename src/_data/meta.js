@@ -1,5 +1,5 @@
 export const url = process.env.URL || 'https://www.nilushansilva.info';
-export const siteName = 'Nilushan Silva ';
+export const siteName = "Tech Adventures ";
 export const siteDescription = 'Full stack developer';
 export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
