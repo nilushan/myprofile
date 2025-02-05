@@ -20,6 +20,14 @@
     {
       "name": "Gold",
       "value": "#fbbe25"
+    },
+    {
+      "name": "Green",
+      "value": "#008000"
+    },
+    {
+      "name": "Olive",
+      "value": "#808000"
     }
   ],
   "standalone": []
