@@ -1,7 +1,10 @@
 backend:
   name: github
-  repo: user/repo # Replace with actual repo owner and name
-  branch: main # Or your default branch
+  repo: user/repo # This should remain or be updated by the user as per previous instructions
+  # branch: main # Optional, remove if not needed, defaults to default repo branch
+  base_url: https://api.github.com # Base URL for the GitHub API
+  auth_endpoint: auth # Path to the authentication endpoint for GitHub API
+  # site_domain: your-github-username.github.io/your-repo-name # Replace with your live GitHub Pages site URL, e.g., https://username.github.io/reponame
 
 media_folder: "src/assets/images/uploads" # Location where uploaded files will be stored
 public_folder: "/assets/images/uploads" # The src attribute for the media file
